@@ -12,6 +12,7 @@
 
 
 	<!-- Specify the app servlets.                   -->
-	<servlet path='/homeFinanceService' class='server.HomeFinanceServiceImpl'/>
+	<servlet path='/homeFinanceService' class='server.services.HomeFinanceServiceImpl'/>
+	<servlet path='/userService' class='server.services.UserServiceImpl'/>
 
 </module>
